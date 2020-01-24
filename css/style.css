@@ -233,11 +233,11 @@ body {
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 1.4rem 4rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all .2s;
-  font-size: 1.6rem; }
+  font-size: 1.4rem; }
 
 .btn:hover {
   transform: translateY(-0.3rem);
@@ -254,7 +254,9 @@ body {
 .btn--blue {
   background-color: #64495E;
   color: #fff; }
-
+.btn--small {
+  padding: 0.7rem 2rem !important; 
+  font-size: 1.2rem !important; }
 .btn--animated {
   animation: bottomIn 0.75s ease-out 0.5s;
   animation-fill-mode: backwards; }
